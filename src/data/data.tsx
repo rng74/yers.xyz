@@ -75,9 +75,9 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">KMF</strong>, where I help build mobile-first, domain-driven internal software that makes our staff’s work easier.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+      In my free time, I love participating in <strong className="text-stone-100">game jams</strong> and <strong className="text-stone-100">hackathons</strong>,
+        learning <strong className="text-stone-100">algorithms</strong>, or spending time with my{' '}
+        <strong className="text-stone-100">family</strong>.
       </p>
     </>
   ),
@@ -113,7 +113,7 @@ export const aboutData: About = {
       label: 'Nationality', text: 'Kazakh', Icon: FlagIcon
     },
     {
-      label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon
+      label: 'Interests', text: 'Game development, Chess, Competetive programming', Icon: SparklesIcon
     },
     {
       label: 'Employment', text: 'KMF', Icon: BuildingOffice2Icon
