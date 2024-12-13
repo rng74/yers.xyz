@@ -124,6 +124,7 @@ export const ContactType = {
   LinkedIn: 'LinkedIn',
   Facebook: 'Facebook',
   Twitter: 'Twitter',
+  Telegram: 'Telegram',
   Instagram: 'Instagram',
 } as const;
 
