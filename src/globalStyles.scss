@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 @layer utilities {
+  .customList {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .customList li {
+    margin-bottom: 8px;
+  }
   /* Chrome, Safari and Opera */
   .no-scrollbar::-webkit-scrollbar {
     display: none;

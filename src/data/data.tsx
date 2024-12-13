@@ -75,7 +75,7 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">KMF</strong>, where I help build mobile-first, domain-driven internal software that makes our staff’s work easier.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      In my free time, I love participating in <strong className="text-stone-100">game jams</strong> and <strong className="text-stone-100">hackathons</strong>,
+        In my free time, I love participating in <strong className="text-stone-100">game jams</strong> and <strong className="text-stone-100">hackathons</strong>,
         learning <strong className="text-stone-100">algorithms</strong>, or spending time with my{' '}
         <strong className="text-stone-100">family</strong>.
       </p>
@@ -256,23 +256,23 @@ export const experience: TimelineItem[] = [
     location: 'KMF',
     title: 'Senior Android developer',
     content: (
-      <p>
+      <ul className="customList">
         <li> Led the development of a multifaceted Android application tailored to empower
-        sales professionals in daily task management.</li>
+          sales professionals in daily task management.</li>
         <li> Implemented MVVM architecture and integrated sockets for real-time data
-        communication. </li>
+          communication. </li>
         <li> Successfully generated monthly tasks and provided essential insights about
-        new and existing clients, optimizing sales processes.</li>
+          new and existing clients, optimizing sales processes.</li>
         <li> Actively mentored junior-level developers, fostering their growth and facilitating
-        knowledge transfer within the team.</li>
+          knowledge transfer within the team.</li>
         <li> Played a pivotal role in designing and implementing intricate business logic to
-        enhance application functionality.</li>
+          enhance application functionality.</li>
         <li> Organized meetups with our primary clients—salespeople—through multiple
-        meetings in different cities, utilizing a retrospective style for continuous
-        improvement.</li>
+          meetings in different cities, utilizing a retrospective style for continuous
+          improvement.</li>
         <li> Collaborated effectively within a Kanban environment, ensuring streamlined
-        project management and delivery.</li>
-      </p>
+          project management and delivery.</li>
+      </ul>
     ),
   },
   {
@@ -280,21 +280,21 @@ export const experience: TimelineItem[] = [
     location: 'KMF',
     title: 'Android developer',
     content: (
-      <p>
+      <ul className="customList">
         <li> Engineered a mobile app facilitating eﬃcient data collection for sales
-        professionals, featuring robust oﬄine capability.</li>
+          professionals, featuring robust oﬄine capability.</li>
         <li> Implemented clean architecture and MVVM patterns, optimizing for
-        maintainability and scalability.</li>
+          maintainability and scalability.</li>
         <li> Utilized Use Case-driven development principles to enhance project structure.</li>
         <li> Successfully refactored the application to align with Android development best
-        practices.</li>
+          practices.</li>
         <li> Integrated data scoring mechanisms for swift responses on loan possibilities.</li>
         <li> Developed an oﬄine mode with a synchronization mechanism for seamless
-        functionality in low-connectivity scenarios.</li>
+          functionality in low-connectivity scenarios.</li>
         <li> Collaborated with cross-functional teams for feature development aligned with
-        business goals.</li>
+          business goals.</li>
         <li> Conducted effective code reviews and provided constructive feedback.</li>
-      </p>
+      </ul>
     ),
   },
   {
@@ -302,22 +302,22 @@ export const experience: TimelineItem[] = [
     location: 'Khan Group',
     title: 'Android developer',
     content: (
-      <p>
+      <ul className="customList">
         <li> Contributed to the enhancement of the shop owner's personal cabinet, enabling
-        various operations such as goods acceptance and audits.</li>
+          various operations such as goods acceptance and audits.</li>
         <li> Worked on a Java-based legacy project with a primary focus on bug fixes,
-        demonstrating the ability to troubleshoot and optimize code.</li>
+          demonstrating the ability to troubleshoot and optimize code.</li>
         <li> Successfully increased crashless user percentage from 95% to 98%, reflecting a
-        commitment to improving system stability.</li>
+          commitment to improving system stability.</li>
         <li> Spearheaded the development of an oﬄine Point of Sale (POS) application with
-        a synchronization mechanism.</li>
+          a synchronization mechanism.</li>
         <li> Specialized in integrating and working with Bluetooth printers, fiscalization processes, and bank terminals.</li>
         <li> Collaborated with cross-functional teams to implement features improving
-        shop owners' ability to manage revenue and perform various operations
-        eﬃciently.</li>
+          shop owners' ability to manage revenue and perform various operations
+          eﬃciently.</li>
         <li> Ensured the seamless functioning of the oﬄine POS application in
-        low-connectivity scenarios through a robust synchronization mechanism.</li>
-      </p>
+          low-connectivity scenarios through a robust synchronization mechanism.</li>
+      </ul>
     ),
   },
   {
@@ -325,18 +325,18 @@ export const experience: TimelineItem[] = [
     location: 'ALMANIT',
     title: 'Android developer',
     content: (
-      <p>
+      <ul className="customList">
         <li> Developed a personalized cabinet for a broker, enabling access to reports and
-        facilitating decision-making.</li>
+          facilitating decision-making.</li>
         <li> Acquired foundational Android development skills during tenure at the starting
-        company.</li>
+          company.</li>
         <li> Worked on a Kotlin-based project using MVP (Model-View-Presenter)
-        architecture, Moxy, and RxJava.</li>
+          architecture, Moxy, and RxJava.</li>
         <li> Collaborated closely with a mentor, gaining valuable insights and guidance in
-        Android development best practices.</li>
+          Android development best practices.</li>
         <li> Contributed to the project's success by implementing features that enhanced
-        the broker's ability to analyze reports and make informed decisions.</li>
-      </p>
+          the broker's ability to analyze reports and make informed decisions.</li>
+      </ul>
     ),
   },
 ];
