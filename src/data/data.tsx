@@ -11,7 +11,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TelegramIcon from '../components/Icon/TelegramIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/header-background.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -294,9 +294,9 @@ export const contact: ContactSection = {
       href: 'https://maps.app.goo.gl/Q8YzYQYGLGa8TmBeA',
     },
     {
-      type: ContactType.Instagram,
-      text: '@nadyrcoop',
-      href: 'https://www.instagram.com/nadyrcoop/',
+      type: ContactType.Telegram,
+      text: '@NYers',
+      href: 'https://t.me/NYers/',
     },
     {
       type: ContactType.Github,
