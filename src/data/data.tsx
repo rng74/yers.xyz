@@ -63,7 +63,7 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, I love participating in <strong className="text-stone-100">game jams</strong> and <strong className="text-stone-100">hackathons</strong>,
-        learning <strong className="text-stone-100">algorithms</strong>, or spending time with my{' '}
+        learning about <strong className="text-stone-100">3D Printing</strong>, or spending time with my{' '}
         <strong className="text-stone-100">family</strong>.
       </p>
     </>
@@ -100,7 +100,7 @@ export const aboutData: About = {
       label: 'Nationality', text: 'Kazakh', Icon: FlagIcon
     },
     {
-      label: 'Interests', text: 'Game development, Chess, Competetive programming', Icon: SparklesIcon
+      label: 'Interests', text: 'Game development, 3D printing, Competetive programming', Icon: SparklesIcon
     },
     {
       label: 'Employment', text: 'KMF', Icon: BuildingOffice2Icon
@@ -176,8 +176,6 @@ export const experience: TimelineItem[] = [
           sales professionals in daily task management.</li>
         <li> Implemented MVVM architecture and integrated sockets for real-time data
           communication. </li>
-        <li> Successfully generated monthly tasks and provided essential insights about
-          new and existing clients, optimizing sales processes.</li>
         <li> Actively mentored junior-level developers, fostering their growth and facilitating
           knowledge transfer within the team.</li>
         <li> Played a pivotal role in designing and implementing intricate business logic to
