@@ -63,7 +63,7 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, I love participating in <strong className="text-stone-100">game jams</strong> and <strong className="text-stone-100">hackathons</strong>,
-        learning about <strong className="text-stone-100">3D Printing</strong>, or spending time with my{' '}
+        <strong className="text-stone-100">3D Printing</strong>, or spending time with my{' '}
         <strong className="text-stone-100">family</strong>.
       </p>
     </>
